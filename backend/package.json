@@ -7,7 +7,8 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "jest",
-    "test-connections": "ts-node src/scripts/test-connections.ts"
+    "test-connections": "ts-node src/scripts/test-connections.ts",
+    "test:mongodb": "ts-node src/scripts/test-mongodb.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.46.1",

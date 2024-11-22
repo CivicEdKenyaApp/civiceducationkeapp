@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Civic Education Kenya App
 
-## Getting Started
+A comprehensive platform for civic education and legislative tracking in Kenya.
 
-First, run the development server:
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/civic-education-app.git
+cd civic-education-app
+```
+
+2. Install dependencies:
+```bash
+# Install root dependencies
+npm install
+
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Install backend dependencies
+cd ../backend
+npm install
+```
+
+3. Set up environment variables:
+
+```bash
+# Create .env file in the root directory
+touch .env
+
+# Add environment variables to .env file
+echo "DATABASE_URL=your_database_url" >> .env
+echo "OPENAI_API_KEY=your_openai_api_key" >> .env
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
